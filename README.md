@@ -47,9 +47,9 @@ Interconnections
 6. CIRCUIT SETUP AND CONNECTIONS
 6.1 Hardware Circuit
 The circuit was assembled on a soldered perforated board, as shown in Figure 5.1. The 9 V battery, the resistor and the LED are visible, along with the two push-button switches mounted at opposite corners of the board.
-![][image1]
+   ![components](components.jpg)
 Figure 5.1: Perforated-board AND gate circuit with battery, resistor, LED and two push switches
-![][image2]
+   ![circuit](circuitback.jpg)
 Figure 5.2: Underside view of the soldered connections with the battery attached
 6.2 Circuit Connections
 Table 5.2 lists the connections, matching the series arrangement shown in the schematic in Figure 5.4.
@@ -82,7 +82,7 @@ Completes the return path
 *[No simulation screenshot was provided for this circuit.]* The schematic in Figure 5.4 was used as the basis of the design instead of a software simulation.
 8. CIRCUIT SCHEMATIC
 Figure 5.4 shows the schematic. SW1 and SW2 are connected in series between the battery's positive terminal and the LED, with the resistor R completing the return path to the battery's negative terminal.
-![][image3]
+![stimulation](stimulation.jpg)
 Figure 5.4: Schematic of the two-input AND gate circuit
 9. FUNCTION OF COMPONENTS
 **9 V battery:** Supplies the voltage that drives current through the series loop.
@@ -140,13 +140,11 @@ Both switches pressed together
 LED on
 LED glowing green (Figure 5.3)
 Matches expected AND behavior
-![][image4]
 
-
-
-**Figure 5.3: LED glowing green when both switch inputs are closed![][image5]
+**Figure 5.3: LED glowing green when both switch inputs are closed
+![circuit](circuitfront.jpg)
 **Figure 5.5:** LED illuminated during hardware testing with the battery connected
-12. APPLICATIONS
+13. APPLICATIONS
 - Physical demonstration of logic-gate behavior in digital electronics courses
 - Two-factor interlock switches, where an action requires two conditions to be true together (for example, a safety switch requiring two hands)
 - Basic building block for larger discrete logic circuits before introducing IC-based gates
